@@ -1,0 +1,62 @@
+body {
+  font-family: "Open Sans";
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Start Nav */
+
+.nav {
+  height: 60px;
+  right:0;
+  left:0;
+  top: 0;
+  padding: 0px 20px;
+  background:#0093de;
+}
+
+.nav .public-pages {
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+.nav .public-pages a {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.nav .logo {
+  width: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+}
+
+/* End Nav */

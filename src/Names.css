@@ -1,0 +1,72 @@
+.names-container .form-group input , .flag-selector {
+  overflow: visible;
+  height: 3em;
+  margin: 5px;
+  border-radius: 7px;
+  border: 1px solid #eee;
+  padding: 15px;
+  background: #fff;
+}
+
+.flag-selector {
+  max-width: 4.8em;
+  padding: 8px 20px 8px 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.flag-selector .preview-flag {
+  max-width: 100%;
+}
+
+.flag-selector .dropdown-icon {
+  position: absolute;
+  right: 5px;
+  width: 10px;
+  top: 50%;
+  margin-top: -3px;
+}
+
+.names-container .form-group {
+  text-align: center;
+}
+
+.names-container ul.no-padding {
+  -webkit-padding-start: 0;
+  padding-left: 0;
+}
+
+.names-container .btn {
+  margin: 0px 5px;
+}
+
+.form-group {
+  margin-bottom: 0px !important;
+}
+
+.flags-container {
+  padding: 20px;
+}
+
+.flags-container ul li {
+  list-style:none;
+  display: inline-block;
+}
+
+.flags-container ul li img {
+  max-width: 50px;
+  margin: 5px;
+}
+
+.name .alert {
+  position: relative;
+    padding: 2px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    text-align: center;
+    max-width: 450px;
+    margin: auto;
+}
+
+

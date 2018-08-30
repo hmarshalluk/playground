@@ -1,0 +1,63 @@
+.absolute {
+  position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.white {
+  color: #fff;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.display-none {
+	display: none;
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.padding-top-10 {
+	padding-top: 10px;
+}
+
+.padding-bottom-10 {
+	padding-bottom: 10px;
+}
+
+.padding-bottom-50 {
+	padding-bottom: 50px;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-left {
+	text-align: left;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.strike-through {
+	text-decoration: line-through;
+}

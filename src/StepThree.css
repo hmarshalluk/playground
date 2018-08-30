@@ -1,0 +1,41 @@
+.payment-section .payment-options {
+	max-width: 250px;
+	margin: 30px auto 30px auto;
+}
+
+.payment-section .payment-options img {
+	max-width: 100%;
+}
+
+.payment-section .checkout-btn {
+	padding: 20px 40px;
+    margin-top: 15px;
+}
+
+.BASIC, .PRO, .PLUS {
+	color: white;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+.BASIC {
+	background: #28a745;
+}
+
+.PRO {
+background: #007bff;
+}
+
+.PLUS {
+	background: #dc3545;
+}
+
+.payment-section .pricing-box {
+	margin: 10px 20px;
+}
+
+.payment-section .pricing-box img {
+    width: 24px;
+    margin-top: -5px;
+    margin-right: 5px;
+}

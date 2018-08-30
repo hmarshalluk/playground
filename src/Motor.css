@@ -1,0 +1,104 @@
+.fondo-img {
+  width: 100%;
+}
+
+.fondo-container {
+  max-width: 1000px;
+  max-height: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+}
+
+.fondo-height {
+  max-height: 100px;
+}
+
+.main-interact {
+  background: url(https://pegatin.com/teams/fondo_motor.jpg) top center repeat-y;
+  position: relative;
+  min-height: 500px;
+  padding-top: 5px;
+} 
+
+.back-button {
+  left: 15px;
+  top: 15px;
+}
+
+/* name previews */
+
+.names-container .preview-flag  {
+  max-width: 50px;
+  display: inline-block;
+}
+
+.names-container .preview-flag img {
+  max-width: 100%;
+  border-radius: 3px;
+  border: 1px solid #000;
+}
+
+.names-container .preview-fn {
+  font-weight: light;
+  font-style: italic;
+  font-size: 1.8em;
+  padding-left: 5px;
+  display: inline;
+}
+
+.names-container .preview-ln {
+  font-weight: bold;
+  font-size: 1.8em;
+  display: inline;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+.names-container .preview-container {
+  margin: 0px 0px;
+}
+
+.preview-divider {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+
+.preview-divider img {
+  max-width: 100%;
+}
+
+/* name previews */
+
+.page-numbers {
+  width: 600px;
+  padding: 15px 5px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.logo-container .logo {
+  max-width: 120px;
+  margin: 10px;
+}
+
+.logo-container .logo img {
+  width: 100%;
+}
+
+.pegatin-descr {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main-interact {
+    } 
+}
+

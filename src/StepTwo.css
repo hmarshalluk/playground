@@ -1,0 +1,13 @@
+.product {
+  max-width: 100%;
+  text-align: center;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.product .header {
+  padding: 13px 10px 10px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
