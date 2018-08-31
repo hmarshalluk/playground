@@ -113,7 +113,7 @@ class Motor extends Component {
         return (
           <div className="margin-top-20">
             <div className="d-flex flex-row justify-content-center">
-              <h5>You've added {numberOfNames} names!</h5>
+              <h5>You\'ve added {numberOfNames} names!</h5>
             </div>
           </div>
         )
