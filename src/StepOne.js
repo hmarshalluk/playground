@@ -100,11 +100,11 @@ class StepOne extends Component {
       const nameCharCheck = format.test(bothNames);
       const warning = (nameLength > 20) ? 
         (
-          <div class="alert alert-danger" role="alert">Oops! Names cannot exceed 20 characters</div>
+          <div className="alert alert-danger" role="alert">Oops! Names cannot exceed 20 characters</div>
         ) : null;
       const charWarning = (nameCharCheck) ? 
         (
-          <div class="alert alert-light" role="alert">Oops! Names cannot include special characters</div>
+          <div className="alert alert-light" role="alert">Oops! Names cannot include special characters</div>
         ) : null;
 
       return (
